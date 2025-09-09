@@ -14,20 +14,22 @@ This is a practical exercise designed to give you a feel for the kind of problem
 > [!IMPORTANT]
 > Deadline for this job challenge is 23 September, 2025 - 23:59 UTC.
 
-## Getting Started
+## How to Participate
 1. **Clone the repos you need** for the challenge (e.g. kvm, api). Keep private until deadline.
 2. **Implement challenges** using the pre-defined challenge branch name
-3. **Create a patchset** for each challenge & repo
+
+Once you're ready with all the challenges you wanted to implement:
+1. **Create a patchset** for each challenge & repo
 
 ```bash
 git fetch --all --tags
 git format-patch \
 --base=challenge-base \
-challenge-base...<challenge-branch> \
--o ~/jetkvm-challenges/<challenge-branch>/<repo-name>
+challenge-base...<your-challenge-branch> \
+-o ~/jetkvm-challenges/<your-challenge-branch>/<repo-name>
 ```
 
-**4. Package your work**
+2. **Package your work**
 
 Zip the whole `~/jetkvm-challenges` directory. It should looks something like:
 
@@ -43,7 +45,12 @@ jetkvm-challenges/
       0001-add-h265-support.patch
 ```
 
-3. Send one email, to `jobs [at] jetkvm [dot] com` with a zip of the `jetkvm-challenges` directory. The email body can be anything you’d like us to know about your solution (e.g. notes, assumptions, trade-offs).
+
+3. **Email us the challenges**
+   - **To:** `jobs [at] jetkvm [dot] com`
+   - **Subject:** `JetKVM Engineering Job Challenge`
+   - **Body**: Anything you’d like us to know about your solution (e.g. notes, assumptions, trade-offs).
+   - **Attachment**: One zip of the `jetkvm-challenges` directory with all the folders & `.patch` files in it.
 
 ## Available Challenges
 
