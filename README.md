@@ -6,12 +6,12 @@
 [Discord](https://jetkvm.com/discord) | [Website](https://jetkvm.com) | [Docs](https://jetkvm.com/docs)
 
 </div>
-Welcome to the Engineering Job Challenge! 🚀  
+Welcome to the Engineering Job Challenge! 🚀
 </br></br>
 
 This is a practical exercise designed to give you a feel for the kind of problems we solve at JetKVM. **Pick one or more challenges, implement your solution in the relevant repos, and send us your patch sets.** Your submission should demonstrate not only that it works, but also clean code, thoughtful design, and a good developer experience.
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > Deadline for this job challenge is 23 September, 2025 - 23:59 UTC.
 
 ## Getting Started
@@ -33,7 +33,7 @@ Zip the whole `~/jetkvm-challenges` directory. It should looks something like:
 
 ```
 jetkvm-challenges/
-  e2e/
+  automated-e2e-test-suite/
     kvm/
       0001-add-tests.patch
     api/
