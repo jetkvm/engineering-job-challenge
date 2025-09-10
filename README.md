@@ -139,7 +139,16 @@ Challenge branch name: `multi-session-support`
 
 </details>
 
-## Use of AI Tools
+## FAQ
+
+### What to expect after submission
+After the deadline on 23 September, 2025 (23:59 UTC), we’ll begin reviewing all submissions. To keep the process fair, we don’t provide feedback before the deadline - this way, every challenge is considered under the same conditions.  
+
+Reviews are done by our team, not by an automated system. We look carefully at each submission, paying attention both to the solution itself and to how it was approached.  
+
+Once the review is complete, we’ll get back to you directly with the outcome - whether or not you move forward.  
+
+### Use of AI Tools
 
 You are welcome to use AI tools while working on this challenge. This reflects how we work day-to-day at JetKVM: AI can speed things up, but it’s not a substitute for thoughtful engineering.
 What matters is that you **fully understand the code you submit and could explain it if asked.**
